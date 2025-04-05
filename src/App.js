@@ -3,6 +3,7 @@ import React from "react";
 import {AppBar, Box, CssBaseline, IconButton, Toolbar, Typography} from "@mui/material";
 import SideBar from "./components/side-bar/SideBar";
 import MenuIcon from '@mui/icons-material/Menu';
+import PageSection from "./components/PageSection";
 
 const drawerWidth = 240;
 
@@ -54,22 +55,63 @@ function App() {
             </Box>
             <Box
                 component="main"
-                sx={{flexGrow: 1, p: 3, width: {sm: `calc(100% - ${drawerWidth}px)`}}}>
+                sx={{
+                    flexGrow: 1,
+                    marginLeft: 0,
+                    width: {sm: `calc(100% - ${drawerWidth}px)`}
+            }}
+            >
                 <Toolbar/>
-                <Typography sx={{marginBottom: 2}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non
-                    enim praesent elementum facilisis leo vel. Risus at ultrices mi tempus
-                    imperdiet. Semper risus in hendrerit gravida rutrum quisque non tellus.
-                    Convallis convallis tellus id interdum velit laoreet id donec ultrices.
-                    Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl suscipit
-                    adipiscing bibendum est ultricies integer quis. Cursus euismod quis viverra
-                    nibh cras. Metus vulputate eu scelerisque felis imperdiet proin fermentum
-                    leo. Mauris commodo quis imperdiet massa tincidunt. Cras tincidunt lobortis
-                    feugiat vivamus at augue. At augue eget arcu dictum varius duis at
-                    consectetur lorem. Velit sed ullamcorper morbi tincidunt. Lorem donec massa
-                    sapien faucibus et molestie ac.
-                </Typography>
+                <Box
+                    sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                    }}
+                >
+                    <PageSection
+                    header="About"
+                    >
+
+                    </PageSection>
+                    <PageSection
+                        header="Experience"
+                    >
+
+                    </PageSection>
+                    <PageSection
+                        header="Skills"
+                    >
+
+                    </PageSection>
+                    <PageSection
+                        header="Education"
+                    >
+
+                    </PageSection>
+                    <PageSection
+                        header="Contact"
+                    >
+
+                    </PageSection>
+                    <PageSection
+                    header="Resume">
+                        <Typography sx={{marginBottom: 2}}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non
+                            enim praesent elementum facilisis leo vel. Risus at ultrices mi tempus
+                            imperdiet. Semper risus in hendrerit gravida rutrum quisque non tellus.
+                            Convallis convallis tellus id interdum velit laoreet id donec ultrices.
+                            Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl suscipit
+                            adipiscing bibendum est ultricies integer quis. Cursus euismod quis viverra
+                            nibh cras. Metus vulputate eu scelerisque felis imperdiet proin fermentum
+                            leo. Mauris commodo quis imperdiet massa tincidunt. Cras tincidunt lobortis
+                            feugiat vivamus at augue. At augue eget arcu dictum varius duis at
+                            consectetur lorem. Velit sed ullamcorper morbi tincidunt. Lorem donec massa
+                            sapien faucibus et molestie ac.
+                        </Typography>
+                    </PageSection>
+                </Box>
+
             </Box>
         </Box>
 

@@ -8,10 +8,14 @@ import {
     Toolbar
 } from "@mui/material";
 import MailIcon from "@mui/icons-material/Mail";
-import InboxIcon from "@mui/icons-material/Inbox";
+import InfoIcon from "@mui/icons-material/Info";
+import WorkIcon from '@mui/icons-material/Work';
+import BuildIcon from '@mui/icons-material/Build';
+import SchoolIcon from '@mui/icons-material/School';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
-    
+
     const handleDrawerClose = () => {
         setIsClosing(true);
         setMobileOpen(false);
@@ -26,16 +30,60 @@ const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
             <Toolbar />
             <Divider />
             <List>
-                {['About', 'Experience', 'Skills', 'Education', 'Contact', 'Resume'].map((text, index) => (
-                    <ListItem key={text} disablePadding>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                            </ListItemIcon>
-                            <ListItemText primary={text} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
+                <ListItem key="About" disablePadding>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <InfoIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="About" />
+                    </ListItemButton>
+                </ListItem>
+
+                <ListItem key="Experience" disablePadding>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <WorkIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="Experience" />
+                    </ListItemButton>
+                </ListItem>
+
+                <ListItem key="Skills" disablePadding>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <BuildIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="Skills" />
+                    </ListItemButton>
+                </ListItem>
+
+                <ListItem key="Education" disablePadding>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <SchoolIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="Education" />
+                    </ListItemButton>
+                </ListItem>
+
+                <ListItem key="Contact" disablePadding>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <MailIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="Contact" />
+                    </ListItemButton>
+                </ListItem>
+
+                <ListItem key="Resume" disablePadding>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <DescriptionIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="Resume" />
+                    </ListItemButton>
+                </ListItem>
+
             </List>
         </div>
     );

@@ -1,5 +1,6 @@
 import React from "react";
 import {
+    Avatar,
     Divider, Drawer,
     List,
     Toolbar
@@ -11,6 +12,7 @@ import BuildIcon from '@mui/icons-material/Build';
 import SchoolIcon from '@mui/icons-material/School';
 import DescriptionIcon from '@mui/icons-material/Description';
 import MenuItem from "./MenuItem";
+import headshot from '../assets/images/joseph_albert.jpg';
 
 const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
 
@@ -43,7 +45,20 @@ const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
 
     const drawer = (
         <div>
-            <Toolbar />
+            <Toolbar>
+                <Avatar
+                    rounded
+                    src={headshot}
+                    sx={{
+                        width: "75%",
+                        height: "75%",
+                        margin: "auto",
+                        border:"black solid 3px",
+                        marginTop: "10px",
+                        marginBottom: "10px",
+                    }}
+                />
+            </Toolbar>
             <Divider />
             <List>
                 {menuItems}

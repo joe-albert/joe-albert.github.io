@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import {AppBar, Box, CssBaseline, IconButton, Toolbar, Typography} from "@mui/material";
-import SideBar from "./components/SideBar";
+import SideBar from "./components/side-bar/SideBar";
 import MenuIcon from '@mui/icons-material/Menu';
 
 const drawerWidth = 240;

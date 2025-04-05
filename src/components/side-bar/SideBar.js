@@ -12,7 +12,7 @@ import BuildIcon from '@mui/icons-material/Build';
 import SchoolIcon from '@mui/icons-material/School';
 import DescriptionIcon from '@mui/icons-material/Description';
 import MenuItem from "./MenuItem";
-import headshot from '../assets/images/joseph_albert.jpg';
+import headshot from '../../assets/images/joseph_albert.jpg';
 
 const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
 

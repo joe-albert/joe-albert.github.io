@@ -4,6 +4,7 @@ import {AppBar, Box, CssBaseline, IconButton, Toolbar, Typography} from "@mui/ma
 import SideBar from "./components/side-bar/SideBar";
 import MenuIcon from '@mui/icons-material/Menu';
 import PageSection from "./components/PageSection";
+import AboutSection from "./components/about-section/AboutSection";
 
 const drawerWidth = 240;
 
@@ -71,7 +72,7 @@ function App() {
                     <PageSection
                     header="About"
                     >
-
+                        <AboutSection/>
                     </PageSection>
                     <PageSection
                         header="Experience"

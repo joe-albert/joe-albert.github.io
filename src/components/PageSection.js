@@ -6,7 +6,9 @@ import {
 const PageSection = ({header, children}) => {
 
     return (
-        <Box>
+        <Box
+            id={header + "Section"}
+        >
             <Typography
                 variant="h2"
                 sx={{

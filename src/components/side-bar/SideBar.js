@@ -13,6 +13,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import DescriptionIcon from '@mui/icons-material/Description';
 import MenuItem from "./MenuItem";
 import headshot from '../../assets/images/joseph_albert.jpg';
+import {BrowserRouter} from "react-router-dom";
 
 const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
 
@@ -60,9 +61,11 @@ const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
                 />
             </Toolbar>
             <Divider />
-            <List>
-                {menuItems}
-            </List>
+            <BrowserRouter>
+                <List>
+                    {menuItems}
+                </List>
+            </BrowserRouter>
         </div>
     );
 

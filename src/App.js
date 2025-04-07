@@ -5,6 +5,7 @@ import SideBar from "./components/side-bar/SideBar";
 import MenuIcon from '@mui/icons-material/Menu';
 import PageSection from "./components/PageSection";
 import AboutSection from "./components/about-section/AboutSection";
+import ExperienceSection from "./components/experience-section/ExperienceSection";
 
 const drawerWidth = 240;
 
@@ -57,6 +58,7 @@ function App() {
             <Box
                 component="main"
                 sx={{
+                    background: "aliceblue",
                     flexGrow: 1,
                     marginLeft: 0,
                     width: {sm: `calc(100% - ${drawerWidth}px)`}
@@ -70,14 +72,13 @@ function App() {
                     }}
                 >
                     <PageSection
-                    header="About"
-                    >
+                    header="About">
                         <AboutSection/>
                     </PageSection>
-                    <PageSection
-                        header="Experience"
-                    >
 
+                    <PageSection
+                        header="Experience">
+                        <ExperienceSection/>
                     </PageSection>
                     <PageSection
                         header="Skills"

@@ -6,7 +6,14 @@ import ProficiencyList from "./ProficiencyList";
 
 const AboutSection = () => {
     return (
-        <Box>
+        <Box
+        sx={{
+            backgroundColor: 'rgba(255,255,255,0.8)',
+            borderRadius: '25px',
+            padding: "2rem",
+
+        }}
+        >
             <Typography>
                 I am a Software Engineer with an extensive background in the genomics field. This work has spanned many domains including laboratory robotics, process automation, data analytics, and web development.
             </Typography>

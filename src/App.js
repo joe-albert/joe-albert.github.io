@@ -57,8 +57,8 @@ function App() {
             </Box>
             <Box
                 component="main"
+                className={"pattern"}
                 sx={{
-                    background: "aliceblue",
                     flexGrow: 1,
                     marginLeft: 0,
                     width: {sm: `calc(100% - ${drawerWidth}px)`}

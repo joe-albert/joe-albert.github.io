@@ -6,6 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import PageSection from "./components/PageSection";
 import AboutSection from "./components/about-section/AboutSection";
 import ExperienceSection from "./components/experience-section/ExperienceSection";
+import SkillSection from "./components/skill-section/SkillSection";
 
 const drawerWidth = 240;
 
@@ -83,7 +84,7 @@ function App() {
                     <PageSection
                         header="Skills"
                     >
-
+                        <SkillSection/>
                     </PageSection>
                     <PageSection
                         header="Education"

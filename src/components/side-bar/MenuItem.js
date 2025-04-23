@@ -16,7 +16,7 @@ const MenuItem = ({text, icon}) => {
 
     return (
 
-        <HashLink smooth to={id} scroll={el => scrollWithOffset(el)}>
+        <HashLink class={"nav-link"} smooth to={id} scroll={el => scrollWithOffset(el)}>
             <ListItem key={text} disablePadding>
                 <ListItemButton>
                 <ListItemIcon>

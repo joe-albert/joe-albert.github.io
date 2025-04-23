@@ -1,8 +1,8 @@
 import React from "react";
 import {
     Avatar,
-    Divider, Drawer,
-    List,
+    Divider, Drawer, Link,
+    List, ListItem, ListItemButton, ListItemIcon, ListItemText,
     Toolbar
 } from "@mui/material";
 import MailIcon from "@mui/icons-material/Mail";
@@ -13,6 +13,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import DescriptionIcon from '@mui/icons-material/Description';
 import MenuItem from "./MenuItem";
 import headshot from '../../assets/images/joseph_albert.jpg';
+import resume from '../../assets/files/Resume- Joseph Albert.pdf';
 import {BrowserRouter} from "react-router-dom";
 
 const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
@@ -36,7 +37,6 @@ const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
         {text: "Skills", icon: <BuildIcon />},
         {text: "Education", icon: <SchoolIcon />},
         {text: "Contact", icon: <MailIcon />},
-        {text: "Resume", icon: <DescriptionIcon />},
     ].map(menuItem => (
         <MenuItem
             text={menuItem.text}
@@ -64,6 +64,16 @@ const SideBar = ({drawerWidth, mobileOpen, setIsClosing, setMobileOpen}) => {
             <BrowserRouter>
                 <List>
                     {menuItems}
+                    <Link target={"_blank"} class={"nav-link"} href={resume}>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <DescriptionIcon/>
+                                </ListItemIcon>
+                                <ListItemText primary={"Resume"} />
+                            </ListItemButton>
+                        </ListItem>
+                    </Link>
                 </List>
             </BrowserRouter>
         </div>

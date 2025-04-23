@@ -8,6 +8,7 @@ import AboutSection from "./components/about-section/AboutSection";
 import ExperienceSection from "./components/experience-section/ExperienceSection";
 import SkillSection from "./components/skill-section/SkillSection";
 import EducationSection from "./components/education-section/EducationSection";
+import ContactSection from "./components/contact-section/ContactSection";
 
 const drawerWidth = 240;
 
@@ -95,7 +96,7 @@ function App() {
                     <PageSection
                         header="Contact"
                     >
-
+                        <ContactSection/>
                     </PageSection>
                     <PageSection
                     header="Resume">

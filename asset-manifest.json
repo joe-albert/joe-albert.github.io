@@ -1,16 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.923bd2ba.js",
-    "static/js/453.76eadf53.chunk.js": "/static/js/453.76eadf53.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.52ee3621.css",
+    "main.js": "/static/js/main.e4966fd5.js",
+    "static/js/511.b7d90ff6.chunk.js": "/static/js/511.b7d90ff6.chunk.js",
+    "static/media/joseph_albert.jpg": "/static/media/joseph_albert.99360e246761dedafd4b.jpg",
+    "static/media/endicott_logo.png": "/static/media/endicott_logo.8e51c162e9eec1b46333.png",
+    "static/media/locust_logo.png": "/static/media/locust_logo.e414b2ff5f1ae1aa5465.png",
+    "static/media/Resume- Joseph Albert.pdf": "/static/media/Resume- Joseph Albert.c18da8063358c77161d4.pdf",
+    "static/media/selenium_logo.png": "/static/media/selenium_logo.2e0f1b013dafd2b7090a.png",
+    "static/media/jackson_laboratory_logo.png": "/static/media/jackson_laboratory_logo.f9c7b6e91c3a21f72bde.png",
+    "static/media/jenkins_logo.png": "/static/media/jenkins_logo.7557988edd3911d903a6.png",
+    "static/media/flask-logo.png": "/static/media/flask-logo.019d950ba000e2a91139.png",
+    "static/media/associates_of_cape_cod_logo.png": "/static/media/associates_of_cape_cod_logo.7e5ab245e1ad8c2c7201.png",
+    "static/media/groovy-logo-1-300x300.png": "/static/media/groovy-logo-1-300x300.2be2541009b4d89b4a8a.png",
+    "static/media/swagger_logo.png": "/static/media/swagger_logo.b94b1ca143538c2c1d60.png",
+    "static/media/spock_logo.png": "/static/media/spock_logo.cda67f8226a1283d0fbe.png",
+    "static/media/jquery_logo.png": "/static/media/jquery_logo.d8f61612eb54aaec72f8.png",
+    "static/media/spring_boot_logo.png": "/static/media/spring_boot_logo.94f201ce44348763e6a5.png",
+    "static/media/java-logo-1-300x300.png": "/static/media/java-logo-1-300x300.83a313c699398ab67614.png",
+    "static/media/linkedin_logo.png": "/static/media/linkedin_logo.e8a1f3c00ecd609eaca3.png",
+    "static/media/sql_alchemy_logo.png": "/static/media/sql_alchemy_logo.b63be489bab68d772fa3.png",
+    "static/media/genomenon_logo.png": "/static/media/genomenon_logo.3d3e9522f438bd843a8d.png",
+    "static/media/grails-logo-1-300x300.png": "/static/media/grails-logo-1-300x300.de07568242afbef68ee4.png",
+    "static/media/gradle_logo.png": "/static/media/gradle_logo.764d2ea51044fada9f17.png",
+    "static/media/bootstrap_logo.png": "/static/media/bootstrap_logo.aaba30bc2512eda0b558.png",
+    "static/media/aws_logo.png": "/static/media/aws_logo.20f5f59b434078c8378c.png",
+    "static/media/docker_logo.png": "/static/media/docker_logo.02eecc1dcfaa003dee34.png",
+    "static/media/github_logo.png": "/static/media/github_logo.50dd786674f991402395.png",
+    "static/media/gcp_logo.png": "/static/media/gcp_logo.8ea999036af41fb30736.png",
+    "static/media/confluence_logo.png": "/static/media/confluence_logo.ec6f8c94a9d16b1744ad.png",
     "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.923bd2ba.js.map": "/static/js/main.923bd2ba.js.map",
-    "453.76eadf53.chunk.js.map": "/static/js/453.76eadf53.chunk.js.map"
+    "main.52ee3621.css.map": "/static/css/main.52ee3621.css.map",
+    "main.e4966fd5.js.map": "/static/js/main.e4966fd5.js.map",
+    "511.b7d90ff6.chunk.js.map": "/static/js/511.b7d90ff6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.923bd2ba.js"
+    "static/css/main.52ee3621.css",
+    "static/js/main.e4966fd5.js"
   ]
 }
